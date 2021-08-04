@@ -1,0 +1,63 @@
+<html>
+
+<body>
+    <h3>Stroke Predictor Model (SPM)</h3>
+    <div>
+        <form action="/result" method="POST">
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age">
+            <br>
+            <label for="hypertension">hypertension</label>
+            <select id="hypertension" name="hypertension">
+                <option value="0">dont has a hypertension</option>
+                <option value="1"> have hypertension</option>
+            </select>
+            <br>
+            <label for="heart_disease">heart_disease</label>
+            <select id="heart_disease" name="heart_disease">
+                <option value="0">dont have a hear heart_disease</option>
+                <option value="1">have a heart_disease</option>
+            </select>
+            <br>
+            <label for="avg_glucose_level">Glucose</label>
+            <input type="number" id="avg_glucose_level" name="avg_glucose_level">
+            </select>
+            <br>
+            <label for="bmi">bmi</label>
+            <input type="number" id="bmi" name="bmi">
+            <br>
+            <label for="smoking_status">smoking status</label>
+            <select id="smoking_status" name="smoking_status">
+                <option value="0">formerly smoked</option>
+                <option value="1">never smoked</option>
+                <option value="2">smokes</option>
+                <option value="3">Unknown</option>
+            </select>
+            <br>
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender">
+                <option value="0">Female</option>
+                <option value="1">Male</option>
+            </select>
+            <br>
+            <label for="ever married">Marital Status</label>
+            <select id="ever married" name="ever married">
+                <option value="0">Not married</option>
+                <option value="1">married</option>
+            </select>
+            <br>
+            <label for="work_type">work type</label>
+            <select id="work_type" name="work_type">
+                <option value="0">Private </option>
+                <option value="1">Self employed</option>
+                <option value="2">Govt job</option>
+                <option value="3">children</option>
+                <option value="4">Never worked</option>
+            </select>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>
