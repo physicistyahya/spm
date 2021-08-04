@@ -57,7 +57,3 @@ def result():
         else:
             prediction = 'No worries! You are as healthy as a horse ;)'
         return render_template("result.html", prediction=prediction)
-
-
-if __name__ == "__main__":
-    app.run()
